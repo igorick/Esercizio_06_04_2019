@@ -54,7 +54,7 @@ public class Cliente {
 		return gradoSoddisfazione;
 	}
 
-	public void setGradoSoddisfazione(int gradoSoddisfazione) {
+	public void GradoSoddisfazione(int gradoSoddisfazione) {
 		if(gradoSoddisfazione>0 && gradoSoddisfazione<11)
 		this.gradoSoddisfazione = gradoSoddisfazione;
 		else {
@@ -69,9 +69,8 @@ public class Cliente {
 		setCognome(cognome);
 		setNome(nome);
 		setTelefono(telefono);
-		setGradoSoddisfazione(gradoSoddisfazione);
+		GradoSoddisfazione(gradoSoddisfazione);
 	}
-	
 	
 	
 	
