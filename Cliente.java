@@ -64,4 +64,15 @@ public class Cliente {
 				this.gradoSoddisfazione = 10;
 		}
 	}
+	
+	public void ModificaDati(String cognome, String nome, String telefono, int gradoSoddisfazione) {
+		setCognome(cognome);
+		setNome(nome);
+		setTelefono(telefono);
+		setGradoSoddisfazione(gradoSoddisfazione);
+	}
+	
+	
+	
+	
 }
