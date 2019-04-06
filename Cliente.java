@@ -72,6 +72,12 @@ public class Cliente {
 		GradoSoddisfazione(gradoSoddisfazione);
 	}
 	
-	
+	@Override
+	public String stampa() {
+		return "Cliente [ID=" + ID + ", Cognome=" + Cognome + ", Nome=" + Nome + ", Telefono=" + Telefono
+				+ ", gradoSoddisfazione=" + gradoSoddisfazione + ", getID()=" + getID() + ", getCognome()="
+				+ getCognome() + ", getNome()=" + getNome() + ", getTelefono()=" + getTelefono()
+				+ ", getGradoSoddisfazione()=" + getGradoSoddisfazione() + "]";
+	}
 	
 }
